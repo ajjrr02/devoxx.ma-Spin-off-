@@ -1,0 +1,195 @@
+[data-input="map-search-control"] {
+    background: #fff;
+}
+
+[data-input="map-search-control"] {
+    font-size: .875em;
+}
+
+[data-input="map-search-control"] {
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 50% !important;
+}
+
+[data-input="map-search-control"] {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border: 1px solid transparent !important;
+    border-radius: 2px 0 0 2px !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+}
+
+[data-input="map-search-control"]:focus {
+    border-color: #4d90fe;
+}
+
+div.wpgmp_before_listing h2 {
+    margin: 0px;
+}
+
+/*wpgmp_filter_wrappers css */
+
+.wpgmp_filter_wrappers {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+.wpgmp_filter_wrappers {
+    background: #efefef;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+/*wpgmp_before_listing*/
+
+div.wpgmp_listing_header,
+div.categories_filter,
+div.wpgmp_before_listing {
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+div.wpgmp_before_listing h2 {
+    margin: 0px;
+}
+
+.wpgmp_before_listing {
+    line-height: 1em;
+}
+
+div.categories_filter select {
+    background: #212f3d;
+}
+
+.wpgmp_toggle_main_container input[type="submit"],
+div.categories_filter select {
+    color: #fff;
+}
+
+div.wpgmp_search_form input.wpgmp_search_input,
+[data-input="map-search-control"],
+div.categories_filter select {
+    font-size: .875em;
+}
+
+div.wpgmp_listing_header,
+div.categories_filter,
+div.wpgmp_before_listing {
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+div.categories_filter select {
+    margin-top: 0.85714em;
+    margin-right: 0.85714em;
+    border: 0px;
+    box-shadow: none !important;
+    display: block;
+    padding: 0.7142857em 2.85714em 0.7142857em 0.7142857em;
+    float: left;
+    border-radius: 0px;
+    height: inherit;
+    max-width: 225px;
+    text-transform: capitalize;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: url(../images/white_select_arrow.png) no-repeat 99% 50% #212f3d;
+}
+
+div.categories_filter select::-ms-expand {
+    display: none;
+}
+
+.categories_filter input[type="button"] {
+    background: #212f3d;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+    /* Styles */
+    .categories_filter select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 4px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .wpgmp_map_container .gm-style-iw {
+        max-width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Styles */
+    .categories_filter select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 4px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .wpgmp_map_container .gm-style-iw {
+        max-width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .categories_filter select {
+        width: 48%;
+        margin-bottom: 10px;
+        padding: 4px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+.categories_filter select {
+    margin-bottom: 10px;
+    padding: 0px;
+    height: 30px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .categories_filter select {
+        margin-bottom: 10px;
+        padding: 0px;
+        height: 30px;
+    }
+    .categories_filter select {
+        width: 48%;
+        margin-bottom: 10px;
+        padding: 4px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:650px) {
+    div.categories_filter select {
+        width: 100%;
+        border-radius: 0px;
+        max-width: 100%;
+    }
+}
+
+.wpgmp_map_parent {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.wpgmp_map_parent .gm-control-active,
+.wpgmp_map_parent .gm-style-mtc button {
+    background: #fff !important;
+}
